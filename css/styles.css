@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    font-size: 1rem;
+}
+
+.colored-background {
+    background-color: #ff595e;
+    color: #fff;
+}
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-heading {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 15% 0 10%;
+}
+
+.nav-item {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.btn-download {
+    font-size: 1.2rem;
+    padding: 1% 2% 1% 1%;
+    margin: 0 2rem 2rem 0;
+}
+
+.icon {
+    margin: .5rem;
+}
+
+.phone-image {
+    position: absolute;
+    width: 60%;
+    top: 15%;
+    left: 7%;
+    transform: rotate(25deg);
+}
+
+.phone {
+   transform: rotate(0);
+} 
+
+/* Features Section */
+
+#features {
+    position: relative;
+    background-color: #fff;
+}
+
+.feature-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.feature-icon {
+    color: #f28482;
+    padding: 2rem;
+}
+
+.feature-icon:hover {
+    color: #ff595e;
+}
+
+.desc {
+    font-size: 1rem;
+    padding: 0 15%;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #f28482;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+}
+
+.testimonial-text {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 0 4% 4%;
+}
+
+.info {
+    margin: 2%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #f28482;
+    padding-bottom: 7%;
+}
+
+.press-image {
+    margin: 0 3%;
+    width: 15%;
+}
+
+/* Pricing Section */
+
+.price-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 3%;
+}
+
+.price-subheading {
+    margin-bottom: 3rem;
+}
+
+.card {
+    margin: 5%;
+    line-height: 2;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    padding: 7%;
+}
+
+
+.price-btn {
+    padding: 4%;
+    width: 100%;
+}
+
+/* Call To Action Section */
+
+.cta-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 7%;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .phone-image {
+        position: static;
+        width: 70%;
+        transform: rotate(0);
+    }
+}
